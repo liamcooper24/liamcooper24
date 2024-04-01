@@ -21,7 +21,7 @@ repository               : "liamcooper24/liamcooper24.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "liam_profile.png"
+  avatar           : "https://liamcooper24.github.io/images/liam_profile_too.png"
   name             : "Liam Cooper"
   pronouns         : "he/him"  
   bio              : "Work in progress"
