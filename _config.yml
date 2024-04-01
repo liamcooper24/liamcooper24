@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Liam Cooper / liamcooper24"
+title                    : "Liam Cooper's Academic Profile"
 title_separator          : "-"
 name                     : &name "Liam Cooper"
 description              : &description "personal description"
