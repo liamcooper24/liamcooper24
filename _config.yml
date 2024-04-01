@@ -12,7 +12,7 @@ title                    : "Liam Cooper's Academic Profile"
 title_separator          : "-"
 name                     : &name "Liam Cooper"
 description              : &description "Academic webpage work in progress"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://github.com/liamcooper24/liamcooper24.github.io #https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "liamcooper24/liamcooper24.github.io"
 
