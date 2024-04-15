@@ -5,5 +5,4 @@ collection: portfolio
 ---
 
 <br/><img src='/images/cooper_ges383_lab05-large.png'>
-Interactive Dashboard
-[link](https://umbc-ges.maps.arcgis.com/apps/dashboards/b9728e701a6d42de922b13771e9f1b02)
+[Interactive Dashboard](https://umbc-ges.maps.arcgis.com/apps/dashboards/b9728e701a6d42de922b13771e9f1b02)
