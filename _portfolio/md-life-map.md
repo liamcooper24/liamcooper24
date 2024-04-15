@@ -5,3 +5,5 @@ collection: portfolio
 ---
 
 this is just me writing.
+
+<br/><img src='/images/cooper_ges383_lab05-1.png'>
