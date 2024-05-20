@@ -5,10 +5,11 @@ collection: portfolio
 ---
 
 ## Introduction
-
+Trees have an important role to play in urban communities, from improving overall human health to supporting already fragile or diminished ecosystems. How does this change in poorer areas and do they lack more greenery? Is there a spatial trend between median household income and tree canopy cover? This analysis looks at 5 year estimates of the American Community Survey (2022) and the NLCD canopy cover raster of the United States (2021) to see if such a relationship exists.  
 ## Methodology
-
+The Tidycensus get_acs() function was used to retrieve ACS data with census tract geographies in Baltimore. Using zonal statistics in R the mean of the canopy cover raster was added to each census tract. A combined shapefile with both variables was placed into GeoDa. A queen's contiguity weights list was created to run a univariate local Moran's I on each individual variable after running a global Moran's I. This generated both significance and  clustering maps for each variable. These results were appended to the shapefile and exported for further visual processing in R and QGIS.
 ## Results
+The cluster maps show high value clusters in red and low value clusters in blue.
 
 <br/><img src='/images/mhhi_clusters_large.png'>
 
@@ -16,4 +17,4 @@ collection: portfolio
 
 <br/><img src='/images/bivariate_choropleth_large.png'>
 
-## Quick References
+
