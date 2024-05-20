@@ -9,7 +9,7 @@ Trees have an important role to play in urban communities, from improving overal
 ## Methodology
 The Tidycensus get_acs() function was used to retrieve ACS data with census tract geographies in Baltimore. Using zonal statistics in R the mean of the canopy cover raster was added to each census tract. A combined shapefile with both variables was placed into GeoDa. A queen's contiguity weights list was created to run a univariate local Moran's I on each individual variable after running a global Moran's I. This generated both significance and  clustering maps for each variable. These results were appended to the shapefile and exported for further visual processing in R and QGIS.
 ## Results
-The cluster maps show high value clusters in red and low value clusters in blue.
+The cluster maps show high value clusters in red and low value clusters in blue. Income has a high value cluster by the Inner Harbor as well as in the North. Tree canopy Cover has a much stronger clustering pattern with low value clusters in the urban core and high value clusters in the urban periphery. A bivariate choropleth map of percent tree canopy cover and median household income in US dollars shows that there is no strong overlapping trend between the two. North Baltimore is the greatest hotspot of high value clusters for both variables. 
 
 <br/><img src='/images/mhhi_clusters_large.png'>
 
